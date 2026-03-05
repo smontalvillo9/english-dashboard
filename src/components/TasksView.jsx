@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 import { CheckSquare, Flame, Trophy } from 'lucide-react';
 
 const initialTasks = [
-    { id: 1, text: "4A: Corregir 5 frases erróneas de Present Continuous (Ej: We are having problems)", isDone: false },
-    { id: 2, text: "4B: Elegir entre Past Simple o Present Perfect en 5 ejemplos logísticos", isDone: false },
-    { id: 3, text: "4C: Buscar, definir y usar en una frase 5 nuevos términos de Supply Chain", isDone: false },
-    { id: 4, text: "5A: Transformar 5 frases de Supply Chain de Activa a Pasiva", isDone: false },
-    { id: 5, text: "5B: Elegir el tiempo pasivo correcto (being vs been / was vs has been)", isDone: false },
-    { id: 6, text: "5C: Escribir un párrafo (100-150 words) sobre Clarel usando 3 pasivas y Vocabulario", isDone: false }
+    { id: 1, text: "6A: Transform to reported speech: Boss: 'I am cancelling the Friday meeting'", isDone: false },
+    { id: 2, text: "6A: Transform to reported speech: Colleague: 'I have never worked with this software before'", isDone: false },
+    { id: 3, text: "6A: Transform to reported speech: Client: 'We won't accept late deliveries'", isDone: false },
+    { id: 4, text: "6A: Transform to reported speech: You: 'I can handle this project alone'", isDone: false },
+    { id: 5, text: "6B: Report a Real Conversation (15 min): Write 4-5 sentences using said/told + backshift.", isDone: false },
+    { id: 6, text: "6C: Mixed (Passive + Reported): 'Our team has reduced costs by 5%' and 'We are shipping the order now'", isDone: false }
 ];
 
 export default function TasksView() {
