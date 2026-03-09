@@ -180,52 +180,51 @@ export const class3Data = {
             title: "Números Multiplicadores (Million / Billion)",
             content: "• Regla Absoluta: Las palabras 'Hundred', 'Thousand', 'Million' y 'Billion' carecen de 's' plural si llevan un número delante.\n• Usos: Reportes financieros y de inversión.\n• ¿Por qué usar uno y no otro?: Porque en inglés actúan como adjetivos ('un billete de cinco euros' -> 'a five euro note'), y los adjetivos nunca se pluralizan.\n\n• Ejemplos:\n- Correcto: They invested two MILLION euros.\n- Incorrecto: They invested two MILLIONS euros."
         }
-        }
     ],
 
-// 6. Teoría (Deep Learning)
-theory: [
-    {
-        title: "Tiempos Verbales: Presente en lugar de Pasado (Crítico)",
-        priority: "Alta",
-        problem: `Sergio escribió: *"They **invest** two millions euros"* y *"Te OTIF **increase** in 16 percentege points"*\nLo correcto es: **"invested"** y **"increased"**`,
-        whyItHappens: `En español, el presente histórico es muy común para narrar eventos pasados: "En 2024, la empresa invierte...". En inglés, esto suena extraño en respuestas de comprensión lectora o reportes de métricas ya culminadas.`,
-        rule: `**Si la acción ya terminó -> Past Simple** (sin excepción).\n- ✅ "They invested €2 million"\n- ✅ "OTIF increased by 16 points"`,
-        trick: `Antes de hablar de una métrica o evento, pregúntate: "¿Esto ya pasó?" Si sí -> Past Simple (terminación -ed o irregulares).`
-    },
-    {
-        title: "Spelling Recurrente y Corporativo",
-        priority: "Alta",
-        problem: `Sergio cometió 11 errores de spelling en una sola clase, incluyendo:\n- wich -> **which**\n- percentege -> **percentage**\n- optimizacion -> **optimization**\n- King regards -> **Kind regards**`,
-        whyItHappens: `1. Cognados con ortografía distinta (percentage vs porcentaje).\n2. Omisión de letras por escritura apresurada (wich, wok).\n3. Confusión fonética (King vs Kind).`,
-        rule: `Reglas de transformación español -> inglés:\n- ción -> **-tion** (optimization)\n- mente -> **-ly** (consequently)\n- aje -> **-age** (percentage)`,
-        trick: `Al terminar un email, haz un "spelling scan" de 30 segundos leyendo **palabra por palabra**, no la frase entera (para evitar que el cerebro auto-corrija).`
-    },
-    {
-        title: "False Friend: ACTUALLY ≠ Actualmente",
-        priority: "Alta",
-        problem: `Sergio escribió: *"I'm **actually** uneasy about the situation"*\nQuería decir: *"Actualmente estoy preocupado"*\nLo correcto es: *"I'm **currently** concerned..."*`,
-        whyItHappens: `"Actually" es el false friend más peligroso porque se parece mucho a "actualmente", pero significa **"en realidad / de hecho"**.`,
-        rule: `**Actually** = en realidad, de hecho ("Actually, I disagree")\n**Currently / At present** = actualmente ("Currently, I'm working at Clarel")`,
-        trick: `Cada vez que vayas a escribir o decir "actually", PARA. Pregúntate: "¿Quiero decir 'en realidad' o 'ahora mismo'?". Si es "ahora mismo" -> **currently**.`
-    },
-    {
-        title: "Concordancia Sujeto-Verbo: 'One of them were'",
-        priority: "Alta",
-        problem: `Sergio escribió: *"One of them **were** in last mile delivery"*\nLo correcto es: *"One of them **was**..."*`,
-        whyItHappens: `El cerebro de Sergio ve "them" (plural) justo antes del verbo y usa el verbo en plural ("were"). Pero el sujeto real es "one" (singular).`,
-        rule: `**El sujeto de "One of them/the/those" es SIEMPRE "one" (singular):**\n- ✅ "One of them **was** late"\n- ✅ "Every employee **needs** a badge"`,
-        trick: `Tapa mentalmente la parte "of [plural]" y quédate solo con "one". "One -> was/is/has". Siempre singular.`
-    },
-    {
-        title: "Preposiciones Numéricas y Plurales",
-        priority: "Media",
-        problem: `*1. "increase **in** 16 points" -> "increase **by** 16 points"*\n*2. "two **millions** euros" -> "two **million** euros"*`,
-        whyItHappens: `1. Traducción literal de "aumentar EN". En inglés los márgenes de cambio usan **by**.\n2. En español decimos "dos millones" (plural). En inglés, si "million/hundred/thousand" tiene un número delante, va en **SINGULAR**.`,
-        rule: `**BY** = cantidad de cambio (Increased by 16%)\n**TO** = valor final (Increased to 92%)\n**FROM... TO** = rango de cambio\n\n**Número + million = SINGULAR** (two million). Solo van en plural si es cantidad aproximada ("millions of euros").`,
-        trick: `¿Cuánto cambió? -> **BY**. ¿Hay un número exacto delante de million? -> **SINGULAR y SIN "of"**.`
-    }
-],
+    // 6. Teoría (Deep Learning)
+    theory: [
+        {
+            title: "Tiempos Verbales: Presente en lugar de Pasado (Crítico)",
+            priority: "Alta",
+            problem: `Sergio escribió: *"They **invest** two millions euros"* y *"Te OTIF **increase** in 16 percentege points"*\nLo correcto es: **"invested"** y **"increased"**`,
+            whyItHappens: `En español, el presente histórico es muy común para narrar eventos pasados: "En 2024, la empresa invierte...". En inglés, esto suena extraño en respuestas de comprensión lectora o reportes de métricas ya culminadas.`,
+            rule: `**Si la acción ya terminó -> Past Simple** (sin excepción).\n- ✅ "They invested €2 million"\n- ✅ "OTIF increased by 16 points"`,
+            trick: `Antes de hablar de una métrica o evento, pregúntate: "¿Esto ya pasó?" Si sí -> Past Simple (terminación -ed o irregulares).`
+        },
+        {
+            title: "Spelling Recurrente y Corporativo",
+            priority: "Alta",
+            problem: `Sergio cometió 11 errores de spelling en una sola clase, incluyendo:\n- wich -> **which**\n- percentege -> **percentage**\n- optimizacion -> **optimization**\n- King regards -> **Kind regards**`,
+            whyItHappens: `1. Cognados con ortografía distinta (percentage vs porcentaje).\n2. Omisión de letras por escritura apresurada (wich, wok).\n3. Confusión fonética (King vs Kind).`,
+            rule: `Reglas de transformación español -> inglés:\n- ción -> **-tion** (optimization)\n- mente -> **-ly** (consequently)\n- aje -> **-age** (percentage)`,
+            trick: `Al terminar un email, haz un "spelling scan" de 30 segundos leyendo **palabra por palabra**, no la frase entera (para evitar que el cerebro auto-corrija).`
+        },
+        {
+            title: "False Friend: ACTUALLY ≠ Actualmente",
+            priority: "Alta",
+            problem: `Sergio escribió: *"I'm **actually** uneasy about the situation"*\nQuería decir: *"Actualmente estoy preocupado"*\nLo correcto es: *"I'm **currently** concerned..."*`,
+            whyItHappens: `"Actually" es el false friend más peligroso porque se parece mucho a "actualmente", pero significa **"en realidad / de hecho"**.`,
+            rule: `**Actually** = en realidad, de hecho ("Actually, I disagree")\n**Currently / At present** = actualmente ("Currently, I'm working at Clarel")`,
+            trick: `Cada vez que vayas a escribir o decir "actually", PARA. Pregúntate: "¿Quiero decir 'en realidad' o 'ahora mismo'?". Si es "ahora mismo" -> **currently**.`
+        },
+        {
+            title: "Concordancia Sujeto-Verbo: 'One of them were'",
+            priority: "Alta",
+            problem: `Sergio escribió: *"One of them **were** in last mile delivery"*\nLo correcto es: *"One of them **was**..."*`,
+            whyItHappens: `El cerebro de Sergio ve "them" (plural) justo antes del verbo y usa el verbo en plural ("were"). Pero el sujeto real es "one" (singular).`,
+            rule: `**El sujeto de "One of them/the/those" es SIEMPRE "one" (singular):**\n- ✅ "One of them **was** late"\n- ✅ "Every employee **needs** a badge"`,
+            trick: `Tapa mentalmente la parte "of [plural]" y quédate solo con "one". "One -> was/is/has". Siempre singular.`
+        },
+        {
+            title: "Preposiciones Numéricas y Plurales",
+            priority: "Media",
+            problem: `*1. "increase **in** 16 points" -> "increase **by** 16 points"*\n*2. "two **millions** euros" -> "two **million** euros"*`,
+            whyItHappens: `1. Traducción literal de "aumentar EN". En inglés los márgenes de cambio usan **by**.\n2. En español decimos "dos millones" (plural). En inglés, si "million/hundred/thousand" tiene un número delante, va en **SINGULAR**.`,
+            rule: `**BY** = cantidad de cambio (Increased by 16%)\n**TO** = valor final (Increased to 92%)\n**FROM... TO** = rango de cambio\n\n**Número + million = SINGULAR** (two million). Solo van en plural si es cantidad aproximada ("millions of euros").`,
+            trick: `¿Cuánto cambió? -> **BY**. ¿Hay un número exacto delante de million? -> **SINGULAR y SIN "of"**.`
+        }
+    ],
 
     // 7. Speaking Prompts
     speaking: [
@@ -241,6 +240,6 @@ theory: [
         }
     ],
 
-        // 8. Quiz
-        quiz: class3Quiz
+    // 8. Quiz
+    quiz: class3Quiz
 };
