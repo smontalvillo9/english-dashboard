@@ -10,6 +10,7 @@ import SpeakingView from './components/SpeakingView';
 import GrammarView from './components/GrammarView';
 import TasksView from './components/TasksView';
 import QuizView from './components/QuizView';
+import TheoryView from './components/TheoryView';
 
 function App() {
     return (

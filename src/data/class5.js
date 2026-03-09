@@ -107,6 +107,59 @@ export const class5Data = {
             description: "Atención a la vocal central A (schwa /ə/) casi inaudible inicial, seguida de un fuerte CHÍIV."
         }
     ],
+
+    // 6. Teoría (Deep Learning)
+    theory: [
+        {
+            title: "False Friend Crítico: 'Implanting' ≠ Implementing",
+            priority: "Alta",
+            problem: `Sergio dijo: *"We are **implanting** a new SGA"*\nLo correcto es: *"We are **implementing** a new SGA"*`,
+            whyItHappens: `Traducción literal de "implantar" un sistema. En inglés, "implant" es médico (operación quirúrgica).`,
+            rule: `Para tecnología, sistemas o software en negocios, la única opción es **implement**. "The implementation took 6 months".`,
+            trick: `¿Es una operación quirúrgica dentro del cuerpo humano? No -> "Implement".`
+        },
+        {
+            title: "Adjetivo vs Adverbio: 'Completely' vs 'Complete'",
+            priority: "Alta",
+            problem: `*"I had a **completely** walking meeting"* (Incorrecto)\n*"I had a **complete** walking meeting"* (Correcto)`,
+            whyItHappens: `Confusión entre adverbios (completely) y adjetivos (complete).`,
+            rule: `**Adjetivo** describe un sustantivo ("a *complete* day").\n**Adverbio** modifica un verbo o adjetivo ("It is *completely* finished").`,
+            trick: `¿Habla de un sustantivo (meeting)? -> Sin -LY (Adjetivo). ¿Habla de un verbo? -> Con -LY (Adverbio).`
+        },
+        {
+            title: "Sustantivos Incontables: 'Trouble' (Problemas)",
+            priority: "Media",
+            problem: `*"We are having **troubles to implant** it"* -> *"We are having **trouble implementing** it"*`,
+            whyItHappens: `"Problema" es plural en español. "Trouble" en inglés es incontable (como water/information). Además, la expresión exige gerundio.`,
+            rule: `1. "Trouble" (dificultad/inconvenientes) NUNCA lleva S.\n2. Estructura obligatoria: **Have trouble + -ING** (no "to").`,
+            trick: `Piensa en "I have trouble sleepING". Siempre -ing tras esta expresión.`
+        },
+        {
+            title: "Comparativos de Desigualdad: 'Than' (nunca 'as')",
+            priority: "Alta",
+            problem: `*"It is going to be harder **as** we are thinking"* -> *"It is harder **than** we thought"*`,
+            whyItHappens: `Traducción de "más difícil DE lo que pensamos". Sergio asocia "de" con "as".`,
+            rule: `Los comparativos de desigualdad SIEMPRE usan **THAN** ("higher than", "worse than").\n- "We thought" = Expectativa pasada, requiere Past Simple.`,
+            trick: `Si ves un adjetivo acabado en -ER (harder, taller), lo siguiente tiene que ser **THAN** el 100% de las veces.`
+        },
+        {
+            title: "Passive Voice: 'BEING' vs 'BEEN'",
+            priority: "Alta",
+            problem: `*"Our OTIF have **being** improved"* -> *"Our OTIF has **been** improved"*`,
+            whyItHappens: `Se intercambian ambas formas del "to be" porque suenan muy parecido y no se asimila la conjugación de cada auxiliar.`,
+            rule: `**have / has -> BEEN** (Acción completada: "has been done")\n**is / are -> BEING** (Acción en curso: "is being done")`,
+            trick: `has/hav**E** -> b**EE**n (comparten la E). is/are son presentes -> being.`
+        },
+        {
+            title: "'AGO' NUNCA con Present Perfect",
+            priority: "Alta",
+            problem: `*"Costs **have been** reduced two months **ago**"* -> *"Costs **were** reduced two months **ago**"*`,
+            whyItHappens: `Incompatibilidad de tiempos. "Have been" es presente perfecto, pero "ago" indica un marco pasado muerto.`,
+            rule: `**ago / last week / yesterday / in 2024 -> Past Simple obligatorio.** Son como enchufes de distintos voltajes; si mezclas "ago" con "have", la frase explota.`,
+            trick: `Si ves "ago" al final de la frase -> Tacha el "have" o "has" para que solo quede Pasado Simple.`
+        }
+    ],
+
     speaking: [
         {
             prompt: "Describe the transition of your logistics system using Passive Voice (What is being implemented? What has been achieved?)",

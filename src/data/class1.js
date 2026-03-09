@@ -177,7 +177,43 @@ export const class1Data = {
         }
     ],
 
-    // 6. Speaking Prompts
+    // 6. Teoría (Deep Learning)
+    theory: [
+        {
+            title: "Interferencia en orden de palabras: 'matches of football'",
+            priority: "Alta",
+            problem: `Sergio dijo: *"matches of football"*\nLo correcto es: **"football matches"**`,
+            whyItHappens: `En español, la estructura natural es sustantivo + de + sustantivo: "partidos de fútbol", "reuniones de trabajo", "informes de ventas". El cerebro de Sergio traduce literalmente esta estructura al inglés, insertando "of" donde no corresponde.`,
+            rule: `Cuando quieres expresar el tipo o categoría de algo, el sustantivo modificador va ANTES del sustantivo principal, SIN "of":\n- ❌ matches of football → ✅ **football matches**\n- ❌ meetings of work → ✅ **work meetings**\n- ❌ reports of sales → ✅ **sales reports**\n\n¿Cuándo SÍ se usa "of"? Para posesiones, parte de un todo, contenido o material.\n- a piece of cake\n- the color of the car`,
+            trick: `Pregúntate: ¿estoy describiendo el tipo de algo? Si la respuesta es sí, pon el clasificador DELANTE. Si describes posesión, parte de un todo o contenido, usa "of".`
+        },
+        {
+            title: "Confusión identidad vs cantidad: 'We are 30 employees'",
+            priority: "Alta",
+            problem: `Sergio dijo: *"We are 30 employees"*\nLo correcto es: **"There are 30 employees"** o **"We have 30 employees"**`,
+            whyItHappens: `En español, "Somos 30 empleados" es perfectamente natural. El verbo "ser" en español cubre tanto la identidad ("Somos profesionales") como la cantidad ("Somos 30"). En inglés, "we are" se usa SOLO para identidad, descripción o características.`,
+            rule: `**"We are" + adjetivo/identidad** (quiénes o cómo somos):\n- ✅ "We are professionals"\n\n**"There are" + número + sustantivo** (cuántos hay):\n- ✅ "There are 30 employees in the department"\n\n**"We have" + número + sustantivo** (cuántos tenemos):\n- ✅ "We have 30 employees"`,
+            trick: `Si después de "somos" viene un **número**, NO uses "we are". Usa "there are" o "we have". Si después viene un adjetivo o descripción, entonces sí: "we are".`
+        },
+        {
+            title: "Función vs Comparación: 'As' vs 'Like'",
+            priority: "Media",
+            problem: `Sergio dijo: *"In my next steps, **like a** supply chain director"*\nLo correcto es: **"In my next steps, as a supply chain director"**`,
+            whyItHappens: `En español, "como" cubre tanto la función ("trabajo como director") como la comparación ("trabaja como una máquina"). El cerebro de Sergio traduce ambos usos al inglés con "like".`,
+            rule: `**AS** = función, rol, capacidad (lo que eres o serás):\n- ✅ "I work **as** a logistics manager" (trabajo como gerente — es mi función)\n\n**LIKE** = comparación, similitud, ejemplo:\n- ✅ "I work **like** a machine" (trabajo como una máquina — comparación)`,
+            trick: `Si puedes sustituir por "en calidad de" o "en el puesto de" → **AS**. Si puedes sustituir por "parecido a" o "igual que" → **LIKE**.`
+        },
+        {
+            title: "Españolización de palabras (Spelling)",
+            priority: "Alta",
+            problem: `Múltiples errores de spelling por transferencia del español:\n- deperdiciating → wasting\n- dificult → difficult\n- imprescindible → essential/indispensable`,
+            whyItHappens: `Cognados falsos o parciales. "Difícil" tiene una F en español, pero "difficult" tiene dos. Al escribir rápido, los dedos reproducen patrones del español, o directamente se inventan palabras ("deperdiciating").`,
+            rule: `Ten cuidado con los siguientes patrones respecto al español:\n- ción → tion (optimization)\n- dad → ty (opportunity)\n- mente → ly (normally)\n- Una F española suele ser doble FF inglesa (difficult)\n- Una S española suele ser doble SS inglesa (necessary)`,
+            trick: `Cuando escribas una palabra que se parezca al español, SOSPECHA. Revisa especialmente las dobles consonantes.`
+        }
+    ],
+
+    // 7. Speaking Prompts
     speaking: [
         {
             prompt: "Describe your team size and structure using 'There are' and quantifiers.",

@@ -106,6 +106,50 @@ export const class6Data = {
             description: "Palabra larga con doble acento. Un apoyo inicial en PROF, y el golpe letal en BIL."
         }
     ],
+
+    // 6. Teoría (Deep Learning)
+    theory: [
+        {
+            title: "Passive Voice: Mantener el Tiempo Verbal ('Backshift' inverso)",
+            priority: "Alta",
+            problem: `*1. "Our team **manages** 500 routes" -> "500 routes **are managing**"*\n*2. "Workers **packed** all orders" -> "Orders **have been packed**"*`,
+            whyItHappens: `Al transformar a pasiva, Sergio centra su carga cognitiva en la nueva estructura (verbo To Be + Participio) y pierde completamente de vista el tiempo verbal original de la frase activa.`,
+            rule: `**El tiempo verbal de la frase activa = el tiempo verbal en pasiva.**\n- Presente simple ('manages') -> Pasiva presente ('are managed')\n- Pasado simple ('packed') -> Pasiva pasada ('were packed')`,
+            trick: `Subraya el verbo activo primero. Piensa: "¿Es pasado? Entonces necesito *was/were* antes del participio".`
+        },
+        {
+            title: "Passive Voice con 'Every' = Present Simple",
+            priority: "Media",
+            problem: `*"Deliveries **are making** every Monday"* -> *"Deliveries **are made** every Monday"*`,
+            whyItHappens: `Asociar actividades habituales con formas continuas ("se están haciendo"). En inglés, la rutina exige Simple Tense.`,
+            rule: `**Every day/month + Always = Present Simple.**\nLa pasiva en presente simple es simplemente **is/are + participio**. NUNCA lleva "being" (eso es para acciones ocurriendo justo AHORA).`,
+            trick: `¿Ves la palabra 'Every'? Tacha mentalmente cualquier verbo terminado en -ING.`
+        },
+        {
+            title: "False Friends Críticos (3ª y 4ª aparición)",
+            priority: "Alta",
+            problem: `Sergio usó: *"focused on getting a **rentability** improvements"* y *"**Actually** we are doing shipments"*.`,
+            whyItHappens: `Spanglish puro. Estas palabras son las traducciones literales que hace el cerebro ("rentabilidad" y "actualmente").`,
+            rule: `1. **"Rentability" NO EXISTE** en inglés. Se dice **Profitability**.\n2. **"Actually"** = de hecho/en realidad. **"Currently"** = actualmente.`,
+            trick: `Repite en voz alta: Rentabilidad = Profit. Actualmente = Current. "Actually" es tu peor enemigo en una entrevista de negocios.`
+        },
+        {
+            title: "Reported Speech: Expresiones Temporales",
+            priority: "Media",
+            problem: `Sergio aplicó bien el backshift de los verbos, pero falló en las expresiones de tiempo: *"She said it would be ready **tomorrow**"* -> *"She said it would be ready **the next day**"*.`,
+            whyItHappens: `Las expresiones de tiempo ("tomorrow", "this year", "now") cambian porque la perspectiva de quien relata el evento ha cambiado de día u hora.`,
+            rule: `Transformaciones obligatorias en Reported Speech:\n- Tomorrow -> **The next day / following day**\n- Yesterday -> **The day before**\n- Now -> **Then / at that moment**\n- This -> **That**`
+        },
+        {
+            title: "Partícula 'To' + Infinitivo Puro",
+            priority: "Alta",
+            problem: `*"we needed to **improved** our OTIF"* -> *"we needed to **improve** our OTIF"*`,
+            whyItHappens: `Se añade '-ed' al verbo del infinitivo por inercia al estar narrando en pasado ("needed").`,
+            rule: `La partícula **"TO"** actúa como un escudo protector. El verbo que le sigue (cuando es infinitivo) va completamente **desnudo** (sin -ed, sin -s, sin -ing).`,
+            trick: `Nunca juntes un "To" con una palabra terminada en "-ed". (Excepto si "to" es preposición, donde exige "-ing", pero NUNCA "-ed").`
+        }
+    ],
+
     speaking: [
         {
             prompt: "Roleplay: The Operations Director said in the morning meeting: 'We will implement a new forecasting model tomorrow'. Report this back to your team.",

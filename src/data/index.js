@@ -4,6 +4,9 @@ import { class3Data } from './class3';
 import { class4Data } from './class4';
 import { class5Data } from './class5';
 import { class6Data } from './class6';
+import { class7Data } from './class7';
+import { class8Data } from './class8';
+import { class9Data } from './class9';
 import { commonErrors } from './commonErrors';
 import { extraVocab } from './extraVocab';
 
@@ -13,7 +16,10 @@ export const allClasses = [
     class3Data,
     class4Data,
     class5Data,
-    class6Data
+    class6Data,
+    class7Data,
+    class8Data,
+    class9Data
 ];
 
 export const getAllClasses = () => allClasses;

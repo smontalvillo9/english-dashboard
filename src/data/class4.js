@@ -101,6 +101,51 @@ export const class4Data = {
             description: "El sonido TH inicial saca la lengua como una z española (/θ/). Luego RU larga y suave."
         }
     ],
+
+    // 6. Teoría (Deep Learning)
+    theory: [
+        {
+            title: "Present Continuous vs Verbos de Estado ('Estamos teniendo')",
+            priority: "Alta",
+            problem: `Sergio dijo: *"We **are having** troubles in implantation"*\nLo natural es: **"We have problems with the implementation"**`,
+            whyItHappens: `En español, "estar + gerundio" es muy versátil ("estamos teniendo problemas"). En inglés, los "state verbs" (verbos de estado mental, emoción o posesión) normalmente NO admiten Present Continuous.`,
+            rule: `**Verbos de ESTADO (lo que eres/tienes/piensas) -> Present Simple**\n- ❌ "I am needing help" -> ✅ "I need help"\n- ❌ "We are wanting to change" -> ✅ "We want to change"\n\n*Excepción*: "Have" admite -ing cuando significa *experimentar* ("I'm having problems"), pero Sergio lo usó como estado general (posesión).`,
+            trick: `Pregunta test: "¿Puedo parar de hacerlo?". Si sí (puedo parar de trabajar) -> acción -> -ing OK. Si no (no puedo "parar de saber o necesitar") -> estado -> Present Simple.`
+        },
+        {
+            title: "Concordancia Sujeto-Verbo: 'Company HAVE' vs 'HAS'",
+            priority: "Alta",
+            problem: `*1. "Our company **have** worked..."* -> *"Our company **has** worked..."*\n*2. "Management **have** decided..."* -> *"Management **has** decided..."*`,
+            whyItHappens: `Un sustantivo colectivo (company, team, government) representa a un grupo de personas, por lo que el cerebro lo asocia con "we/they" y usa el verbo en plural.`,
+            rule: `**Sujetos singulares que parecen plurales usan verbo en SINGULAR:**\n- The company **has** grown\n- The team **is** working\n- Everyone **has** a badge`,
+            trick: `Identifica el sujeto REAL. Si es "company", "team", o "management" -> **has / is / does**. Tapa mentalmente lo que hay entre el sujeto y el verbo para no confundirte con los empleados de la empresa.`
+        },
+        {
+            title: "Repetición Excesiva de 'Estamos...' al hablar",
+            priority: "Media",
+            problem: `Sergio usó la estructura "We are + [verbo]-ing" ("estamos haciendo", "estamos buscando") 7 veces en un audio de 2:40 minutos.`,
+            whyItHappens: `El Present Continuous se convierte en una "muleta" lingüística segura a la que se recurre repetitivamente para evitar estructuras más complejas.`,
+            rule: `Para obtener buena nota en speaking C1, hay que **variar las estructuras**: alternar con Present Perfect ("We have started to..."), Present Simple ("We need to..."), o usar conectores lógicos ("However", "Additionally").`,
+            trick: `Antes de empezar a hablar, planifica mentalmente 3 estructuras diferentes. Regla práctica: no uses la misma estructura gramatical más de 2 veces seguidas.`
+        },
+        {
+            title: "Vocabulario: 'Movements' vs 'Ways' (Acciones)",
+            priority: "Media",
+            problem: `*1. "by different **movements** away"* -> *"in different **ways**"*\n*2. "doing another few **movements**"* -> *"exploring different **ways** / **steps**"*`,
+            whyItHappens: `Traducción literal de "hacer movimientos" (tomar pasos/acciones) al inglés. En inglés, "movements" es movimiento físico o social.`,
+            rule: `Para referirse a "formas de hacer algo" o "acciones", usar **ways, approaches, steps, measures, strategies**.`,
+            trick: `"Movements" en inglés = físico (brazos). Para negocios -> **ways** o **steps**.`
+        },
+        {
+            title: "Past Simple vs Present Perfect (Clave B2/C1)",
+            priority: "Alta",
+            problem: `Confusión al narrar eventos pasados. Sergio llegó a combinar ambos: *"Our company **have worked** in supply chain **for 15 years**"* (Correcto), pero se equivocó con los marcadores de tiempo cerrado.`,
+            whyItHappens: `Falta de asociación visceral entre el conector de tiempo y el tiempo verbal correspondiente.`,
+            rule: `**Past Simple** = momento específico (yesterday, last month, ago, in 2020).\n**Present Perfect** = conectado al presente (since, for, recently, already).\n**"AGO" NUNCA va con Present Perfect.** "Costs *were* reduced 2 months *ago*".`,
+            trick: `¿Esto sigue siendo verdad AHORA? Si sí -> Present Perfect. Si no (mataste la acción con un marco temporal pasado) -> Past Simple.`
+        }
+    ],
+
     speaking: [
         {
             prompt: "Describe an optimization process you recently led (Focus on avoiding 'are having' and using Past Simple for metrics).",

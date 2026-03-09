@@ -170,7 +170,44 @@ export const class2Data = {
             title: "Mixed Conditionals (C1/C2 Advanced)",
             content: "• Usos: Cuando una Decisión PASADA (Type 3) tiene un Efecto PRESENTE activo (Type 2).\n• Estructura: If + Past Perfect (causa ayer) -> Would + infinitivo (efecto hoy).\n• ¿Por qué usar uno y no otro?: Es la forma más natural de describir el entorno laboral. Tomas decisiones hace un año que se sufren hoy.\n\n• Ejemplos:\n- If I had taken that job last year (T3), I would be happier now (T2).\n- If we hadn't signed the contract in 2022 (T3), we wouldn't have this debt right now (T2)."
         }
+        }
     ],
+
+// 6. Teoría (Deep Learning)
+theory: [
+    {
+        title: "Olvidar 'HAVE' en Type 3: 'would passed'",
+        priority: "Alta",
+        problem: `Sergio escribió: *"If I had studied more, I **would passed** the exam."*\nLo correcto es: **"I would have passed the exam."**\n\nTambién escribió *"I have told you"* en vez de *"I would have told you"*.`,
+        whyItHappens: `Confusión entre Type 2 y Type 3, y entre Present Perfect y Conditional Perfect. En Type 2, la main clause es "would + infinitivo". En Type 3, SIEMPRE hay un "have": "would have + participio".`,
+        rule: `**Type 3 SIEMPRE lleva tres elementos en la main clause:**\n1. would (o could/should/might)\n2. have (NUNCA se omite)\n3. past participle\n\n**If + Past Perfect, would HAVE + participio**`,
+        trick: `"Type 3 = TRIPLE": would + have + participio. Tres palabras siempre. Si solo tienes dos, te falta una. En español se traduce como "habría aprobado" (habría + participio).`
+    },
+    {
+        title: "'WAS' vs 'WERE' en Type 2 (Subjuntivo)",
+        priority: "Alta",
+        problem: `Sergio escribió: *"If she **was** taller..."*\nLo correcto es: **"If she were taller..."**`,
+        whyItHappens: `El cerebro automatiza "she -> was" por sonido nativo 99% del tiempo. Pero en condicionales irreales, el inglés requiere "were" como vestigio del subjuntivo para TODAS las personas.`,
+        rule: `En condicionales Type 2 (y Mixed), el verbo "to be" es **siempre WERE** para todas las personas (I, he, she, it).\n- ✅ "If I were rich"\n- ✅ "I wish I were taller"\n- ✅ "He talks as if he were the boss"`,
+        trick: `Si la frase empieza con "If" y describe algo irreal o hipotético -> el verbo "to be" es "WERE". Sin excepciones en el ámbito formal o C1.`
+    },
+    {
+        title: "Estructura Rota Bajo Presión",
+        priority: "Alta",
+        problem: `*"She had not crash if she wpuld has drive more carefully"*\nLo correcto es: **"She would not have crashed if she had driven..."**`,
+        whyItHappens: `Cuando se intenta construir frases complejas rápido, la gramática colapsa invirtiendo las cláusulas. El "If" arrastró la main clause en lugar de la cláusula condicional.`,
+        rule: `La estructura interna NUNCA cambia, solo el orden:\n**Opción A**: If + had + past participle, would (not) have + past participle\n**Opción B**: Would (not) have + past participle + if + had + past participle`,
+        trick: `Practica la estructura como una fórmula. Memoriza el patrón: "If [had + pp], [would have + pp]". No la construyas palabra por palabra.`
+    },
+    {
+        title: "False Friends Críticos en Speaking",
+        priority: "Alta",
+        problem: `Sergio usó:\n- "war" por "trabajo" (job/work)\n- "signature" por "asignatura" (subject)\n- "informative" por "informática" (IT)\n- "unless" por "aunque" (although/even though)`,
+        whyItHappens: `Son falsos amigos: palabras que suenan similar al español pero significan cosas distintas.`,
+        rule: `Al hablar en C1 de negocios, estos errores alteran el significado gravemente. "Unless" no es "Aunque".`,
+        trick: `Cada vez que vayas a decir una palabra que se parece al español, SOSPECHA. Si dudas, di "Work" en lugar de arriesgarte a decir "War" en una entrevista.`
+    }
+],
 
     // 7. Speaking Prompts
     speaking: [
@@ -186,6 +223,6 @@ export const class2Data = {
         }
     ],
 
-    // 8. Quiz
-    quiz: class2Quiz
+        // 8. Quiz
+        quiz: class2Quiz
 };

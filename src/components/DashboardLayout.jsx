@@ -7,6 +7,7 @@ import {
     BookA,
     Ear,
     Mic,
+    BookOpen,
     BookOpenCheck,
     CheckSquare,
     Gamepad2
@@ -22,6 +23,7 @@ const navItems = [
     { path: '/pronunciation', icon: Ear, label: 'Pronunciación' },
     { path: '/speaking', icon: Mic, label: 'Speaking' },
     { path: '/grammar', icon: BookOpenCheck, label: 'Gramática' },
+    { path: '/theory', icon: BookOpen, label: 'Teoría' },
     { path: '/tasks', icon: CheckSquare, label: 'Tareas' },
     { path: '/quiz', icon: Gamepad2, label: 'Quiz' },
 ];
