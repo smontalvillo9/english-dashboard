@@ -26,6 +26,7 @@ function App() {
                     <Route path="grammar" element={<GrammarView />} />
                     <Route path="tasks" element={<TasksView />} />
                     <Route path="quiz" element={<QuizView />} />
+                    <Route path="theory" element={<TheoryView />} />
                 </Route>
             </Routes>
         </BrowserRouter>
