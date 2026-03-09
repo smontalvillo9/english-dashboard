@@ -1,8 +1,12 @@
 import React, { useState } from 'react';
 import { BookOpen, GraduationCap, AlertCircle, Sparkles } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useOutletContext } from 'react-router-dom';
+import { getAllClasses } from '../data';
 
-export default function TheoryView({ availableClasses, selectedClass }) {
+export default function TheoryView() {
+    const { selectedClassId } = useOutletContext();
+    const availableClasses = getAllClasses();
     const [expandedIds, setExpandedIds] = useState([]);
 
     const toggleExpand = (id) => {
@@ -12,9 +16,9 @@ export default function TheoryView({ availableClasses, selectedClass }) {
     };
 
     // Filter logic similar to other components
-    const classesToProcess = selectedClass === 'all'
+    const classesToProcess = selectedClassId === 'all'
         ? availableClasses
-        : availableClasses.filter(c => c.id === selectedClass);
+        : availableClasses.filter(c => c.id === selectedClassId);
 
     // Extract all theory blocks
     const allTheories = classesToProcess.flatMap(cls => {
