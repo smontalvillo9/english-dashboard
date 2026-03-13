@@ -7,6 +7,11 @@ import { class6Data } from './class6';
 import { class7Data } from './class7';
 import { class8Data } from './class8';
 import { class9Data } from './class9';
+import { class10Data } from './class10';
+import { class11Data } from './class11';
+import { class12Data } from './class12';
+import { class13Data } from './class13';
+import { class14Data } from './class14';
 import { commonErrors } from './commonErrors';
 import { extraVocab } from './extraVocab';
 
@@ -19,7 +24,12 @@ export const allClasses = [
     class6Data,
     class7Data,
     class8Data,
-    class9Data
+    class9Data,
+    class10Data,
+    class11Data,
+    class12Data,
+    class13Data,
+    class14Data
 ];
 
 export const getAllClasses = () => allClasses;
@@ -44,7 +54,7 @@ export const getAggregateStats = (classId = 'all') => {
         totalClasses: targetClasses.length,
         totalErrorsResolved: targetClasses.reduce((acc, curr) => acc + curr.errors.length, 0),
         totalVocabLearned: targetClasses.reduce((acc, curr) => acc + curr.vocabulary.length, 0),
-        levels: "B1 → B2",
+        levels: "B1 → C1",
         studyHours: studyHours
     };
 };
